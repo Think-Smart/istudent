@@ -1,7 +1,7 @@
 #iStudent
 
-This is a project for Web-Developers course.<br>
-Took place in JCE Jerusalem College of Engineering, On 2015 semester a.
+This is a project for Web-Developers course by Shay Tavor.<br>
+Took place in JCE Jerusalem College of Engineering, On 2015 semester a, during studies in Software Engineer department, in the 3rd year.
 This project is called "iStudent" - a student management center.<br>
 
 ##Authors:
@@ -9,6 +9,8 @@ This project is called "iStudent" - a student management center.<br>
 * Dor Harel 
 * Barak Turgeman
 
+##Github repository link
+[Here](https://github.com/alonshmilo/istudent)
 
 ##Files submitted:
 In this project you will find the files:
