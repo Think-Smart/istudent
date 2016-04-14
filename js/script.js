@@ -58,7 +58,7 @@ function toggleDoneToDo(toDo_id) {
 	printiStudent(iStudent)
 	return false;
 }
-function printiStudent(iStudent) { //This funtion is printing the whole board on the screen
+function printiStudent(iStudent) { //This function is printing the whole board on the screen
 	$("#exams .inner").html('');
 	$("#assignments .inner").html('');
 	$("#todolist .inner").html('');
