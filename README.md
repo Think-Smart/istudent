@@ -23,8 +23,8 @@ In this project you will find the files:
 * script.js - Contains all the jquery functions we need for the app. Plus, it contains the "ready" functions.
 
 ##Screens
-* Schedule - presents weekly schedule by hours. You can add courses by pressing "add course", and give it a name, Instructor, day and time in the week. After you added a course, you can edit it by pressing it again and change whatever you like.
-* Assignment - a list of assignments by courses only. You can add what ever assignment that you want, but the course you want to add it to, must be on your schedule, or else you won't be able to attach it to the right course. After adding the assignment, you can edit it b clicking on the icon, or you can mark it as done. When you mark it as done, the due date will dissapear because it is no longer interesting.
+* Schedule - Presents weekly schedule by hours. You can add courses by pressing "add course", and give it a name, Instructor, day and time in the week. After you added a course, you can edit it by pressing it again and change whatever you like.
+* Assignment - A list of assignments by courses only. You can add what ever assignment that you want, but the course you want to add it to, must be on your schedule, or else you won't be able to attach it to the right course. After adding the assignment, you can edit it b clicking on the icon, or you can mark it as done. When you mark it as done, the due date will dissapear because it is no longer interesting.
 * To-do list - In this list you can add issues for yourself that is not attached to any course, but on general issues you have. Also here you can mark it as done, or add it, as much as in assignment list.
 * Exam list - Here you can add an exam to an existing course in you schedule. It will present you a list of exams divided by courses, you can aedit each one of them by clicking the edit icon. Only existing courses can get an exam on the list. <br>
 Note! By erasing a course in the schedule screen, all the assignments and the exams will be automaically erased! So be sure before you erase anything.
