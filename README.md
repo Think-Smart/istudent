@@ -12,7 +12,7 @@ This project is called "iStudent" - a student management center.<br>
 ##Please visit our [live application!](https://github.com/alonshmilo/istudent)
 
 ##Github repository link
-[Here](https://github.com/alonshmilo/istudent)
+This markdown readme file is well read in git-hub repository [here](https://github.com/alonshmilo/istudent). A simple README file is also attached in the repository.
 
 ##Files submitted:
 In this project you will find the files:
