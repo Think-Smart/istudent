@@ -12,7 +12,7 @@ This project is called "iStudent" - a student management center.<br>
 ##Please visit our [live application!](http://istudentjce.azurewebsites.net)
 
 ##Github repository link
-This markdown readme file is well read in git-hub repository [here](https://github.com/alonshmilo/istudent). A simple README file is also attached in the repository.
+Please read this before you continue, we highly recommend that you'll read this in a different way: This markdown readme file is well read in git-hub repository [here](https://github.com/alonshmilo/istudent). A simple README file is also attached in the repository.
 
 ##Files submitted:
 In this project you will find the files:
