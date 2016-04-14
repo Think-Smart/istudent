@@ -1,3 +1,7 @@
+//Alon Shmilovich 034616359
+//Dor Harel 300300563
+//Barak Turgeman 305631293
+
 function toDo(name,description,date,done) {
     this.name = name;
     this.description = description;
