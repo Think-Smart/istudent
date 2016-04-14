@@ -1,0 +1,247 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@charset "utf-8";
+
+/* general style */
+* {
+  border-color: #e1e1e1;
+  border-style: solid;
+  border-width: 0;
+  zoom: 1;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+*:focus {
+  outline: none !important;
+}
+html, body {
+  height: 100%;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.6;
+	-webkit-appearance: none;
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+	position: relative;
+	background: #353535;
+	font-size: 17px;
+	color: #FFF;
+}
+input, button, select, textarea {
+	font-family: 'Lato', sans-serif;
+}
+a {
+  color: #2e5481;
+}
+a:visited {
+  color: #7996b7;
+}
+a:active {
+  color: #000;
+}
+
+
+/* end general style */
+
+h1{
+    text-align: center;
+}
+/* main */
+main h1 {
+	margin: 30px 0;
+}
+#assignments,
+#todolist,
+#exams {
+	display: none;
+}
+.table-hover>tbody>tr:hover {background-color: #505050;}
+button i {margin-right: 8px;}
+.inner {margin: 30px 0 20px 0;}
+/* end main */
+
+/* Schedule  */
+#schedule table {
+    margin: 30px 0;
+}
+#schedule .course {
+    background: #65B37A;
+    padding: 3px 7px;
+    cursor: pointer;
+    margin-bottom: 2px;
+	-webkit-transition: 0.3s all;
+	-moz-transition: 0.3s all;
+	-o-transition: 0.3s all;
+	-ms-transition: 0.3s all;
+	transition: 0.3s all;
+}
+#schedule .course:hover {
+    background: #4C9560;
+}
+/* end Schedule  */
+/* to do list */
+.todo-list {
+    list-style: none;
+    font-size: 20px;
+}
+.todo-list li a {
+    margin-right: 7px;
+    color: #FFF;
+}
+/* end to do list */
+
+/* modal */
+.modal {color: #353535;}
+/* end modal */
+
+/* footer */
+footer {
+  margin-bottom: 0 !important;
+  margin-top: 80px;
+}
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+/* end footer */
+
+/* animated-button */
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.animated-button.active, a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a.animated-button.active:after, a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+	position:relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+a.animated-button.gibson-one {
+	border: 2px solid #65b37a;
+	color: #FFF;
+}
+a.animated-button.gibson-one:after {
+	opacity: 0;
+	background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
+	background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
+	background-size: 10px 10px;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
+a.animated-button.gibson-one.active:after, a.animated-button.gibson-one:hover:after {
+	height: 600% !important;
+	opacity: 1;
+	color: #FFF;
+}
+a.animated-button.gibson-two {
+	border: 2px solid #65b37a;
+	color: #FFF;
+}
+a.animated-button.gibson-two:after {
+	opacity: 0;
+	background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
+	background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
+	background-size: 10px 10px;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+a.animated-button.gibson-two.active:after, a.animated-button.gibson-two:hover:after {
+	height: 600% !important;
+	opacity: 1;
+	color: #FFF;
+}
+a.animated-button.gibson-three {
+	border: 2px solid #65b37a;
+	color: #FFF;
+}
+a.animated-button.gibson-three:after {
+	opacity: 0;
+	background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
+	background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
+	background-size: 10px 10px;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+	transform: translateX(-50%) translateY(-50%) rotate(90deg);
+}
+a.animated-button.gibson-three.active:after, a.animated-button.gibson-three:hover:after {
+	height: 600% !important;
+	opacity: 1;
+	color: #FFF;
+}
+a.animated-button.gibson-four {
+	border: 2px solid #65b37a;
+	color: #FFF;
+}
+a.animated-button.gibson-four:after {
+	opacity: 0;
+	background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
+	background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
+	background-size: 10px 10px;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%));
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+a.animated-button.gibson-four.active:after, a.animated-button.gibson-four:hover:after {
+	height: 600% !important;
+	opacity: 1;
+	color: #FFF;
+}
+/* end animated-button */
+

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en" DIR="LTR">
+    <head>
+		
+		<title>iStudent</title>
+		<h1>Welcome to iStudent!</h1>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		
+		<link href="css/style.css" rel="stylesheet"/>
+		
+    </head>
+    
+    <body>
+		
+		<div class="container">
+
+			<nav class="row">
+				<div class="col-md-3 col-sm-3 col-xs-6"> <a href="#schedule" class="btn btn-sm animated-button gibson-one active">Schedule</a> </div>
+				<div class="col-md-3 col-sm-3 col-xs-6"> <a href="#assignments" class="btn btn-sm animated-button gibson-two">Assignments</a> </div>
+				<div class="col-md-3 col-sm-3 col-xs-6"> <a href="#todolist" class="btn btn-sm animated-button gibson-three">To-Do lists</a> </div>
+				<div class="col-md-3 col-sm-3 col-xs-6"> <a href="#exams" class="btn btn-sm animated-button gibson-four">Exam list</a> </div>
+			</nav>
+			
+			<main>
+				<div id="schedule">
+                    <h1>Schedule</h1>
+					
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#courseAdd"><i class="fa fa-plus"></i> Add course</button>
+					
+					<table class="table table-hover">
+						<thead>
+							<tr>
+								<th>Hours</th>
+								<th>Sunday</th>
+								<th>Monday</th>
+								<th>Tuesday</th>
+								<th>Wednesday</th>
+								<th>Thursday</th>
+								<th>Friday</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">08:00</th>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">09:00</th>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">10:00</th>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">11:00</th>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">12:00</th>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">13:00</th>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">14:00</th>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">15:00</th>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">16:00</th>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">17:00</th>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">18:00</th>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">19:00</th>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div id="assignments">
+					<h1>Assignments</h1>
+                    
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#assigmmentAdd"><i class="fa fa-plus"></i> Add assigmment</button>
+					
+					<div class="inner"></div>
+				</div>
+				<div id="todolist">
+					<h1>To-Do lists</h1>
+					
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#toDoAdd"><i class="fa fa-plus"></i> Add To-Do</button>
+					
+					<div class="inner"></div>
+				</div>
+				<div id="exams">
+					<h1>Exam list</h1>
+					
+                    
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#examAdd"><i class="fa fa-plus"></i> Add exam</button>
+					
+					<div class="inner"></div>
+				</div>
+			</main>
+		
+		</div>
+    
+		<!-- Modal -->
+		<div class="modal fade" id="courseAdd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Add course</h4>
+					</div>
+					<form id="addCourse">
+						<div class="modal-body">
+							<div class="form-group">
+								<label>Name</label>
+								<input type="text" class="form-control" id="addCourseName" placeholder="Name">
+							</div>
+							<div class="form-group">
+								<label>Instructor</label>
+								<input type="text" class="form-control" id="addCourseInstructor" placeholder="Instructor">
+							</div>
+							<div class="form-group">
+								<label>Day</label>
+								<select class="form-control" id="addCourseDay">
+									<option value="1">Sunday</option>
+									<option value="2">Monday</option>
+									<option value="3">Tuesday</option>
+									<option value="4">Wednesday</option>
+									<option value="5">Thursday</option>
+									<option value="6">Friday</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label>Hour</label>
+								<select class="form-control" id="addCourseHour">
+									<option value="8">08:00</option>
+									<option value="9">09:00</option>
+									<option value="10">10:00</option>
+									<option value="11">11:00</option>
+									<option value="12">12:00</option>
+									<option value="13">13:00</option>
+									<option value="14">14:00</option>
+									<option value="15">15:00</option>
+									<option value="16">16:00</option>
+									<option value="17">17:00</option>
+									<option value="18">18:00</option>
+									<option value="19">19:00</option>
+								</select>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="submit" class="btn btn-primary">Add</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="courseEdit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Course: </h4>
+					</div>
+					<form id="editCourse">
+						<div class="modal-body">
+							<div class="form-group">
+								<label>Name</label>
+								<input type="text" class="form-control" id="editCourseName" placeholder="Name" value=" ">
+							</div>
+							<div class="form-group">
+								<label>Instructor</label>
+								<input type="text" class="form-control" id="editCourseInstructor" placeholder="Instructor" value=" ">
+							</div>
+							<div class="form-group">
+								<label>Day</label>
+								<select class="form-control" id="editCourseDay">
+									<option value="1">Sunday</option>
+									<option value="2">Monday</option>
+									<option value="3">Tuesday</option>
+									<option value="4">Wednesday</option>
+									<option value="5">Thursday</option>
+									<option value="6">Friday</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label>Hour</label>
+								<select class="form-control" id="editCourseHour">
+									<option value="8">08:00</option>
+									<option value="9">09:00</option>
+									<option value="10">10:00</option>
+									<option value="11">11:00</option>
+									<option value="12">12:00</option>
+									<option value="13">13:00</option>
+									<option value="14">14:00</option>
+									<option value="15">15:00</option>
+									<option value="16">16:00</option>
+									<option value="17">17:00</option>
+									<option value="18">18:00</option>
+									<option value="19">19:00</option>
+								</select>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-danger deleteCourse">Delete</button>
+							<button type="submit" class="btn btn-primary">Save changes</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+        
+        
+
+		<div class="modal fade" id="examAdd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Add exam</h4>
+					</div>
+					<form id="addExam">
+                        <div class="modal-body">
+							<div class="form-group">
+								<label>Course</label>
+								<select class="form-control courses" id="addExamCourse"></select>
+							</div>
+							<div class="form-group">
+								<label>Name</label>
+								<input type="text" class="form-control" id="addExamName" placeholder="Name">
+							</div>
+							<div class="form-group">
+								<label>Description</label>
+								<textarea class="form-control" id="addExamDescription" placeholder="Description"></textarea>
+							</div>
+               				<div class="form-group">
+								<label>Date</label>
+								<input type="date" class="form-control" id="addExamDate">
+							</div>
+               				<div class="form-group">
+								<label>Hour</label>
+								<input type="time" class="form-control" id="addExamHour">
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="submit" class="btn btn-primary">Add</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="examEdit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Exam: </h4>
+					</div>
+					<form id="editExam">
+						<div class="modal-body">
+							<div class="form-group">
+								<label>Name</label>
+								<input type="text" class="form-control" id="editExamName" placeholder="Name">
+							</div>
+							<div class="form-group">
+								<label>Description</label>
+								<textarea class="form-control" id="editExamDescription" placeholder="Description"></textarea>
+							</div>
+               				<div class="form-group">
+								<label>Date</label>
+								<input type="date" class="form-control" id="editExamDate">
+							</div>
+               				<div class="form-group">
+								<label>Hour</label>
+								<input type="time" class="form-control" id="editExamHour">
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-danger deleteExam">Delete</button>
+							<button type="submit" class="btn btn-primary">Save changes</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+        
+		<div class="modal fade" id="assigmmentAdd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Add assigmment</h4>
+					</div>
+					<form id="addAssigmment">
+                        <div class="modal-body">
+							<div class="form-group">
+								<label>Course</label>
+								<select class="form-control courses" id="addAssigmmentCourse"></select>
+							</div>
+							<div class="form-group">
+								<label>Name</label>
+								<input type="text" class="form-control" id="addAssigmmentName" placeholder="Name">
+							</div>
+							<div class="form-group">
+								<label>Description</label>
+								<textarea class="form-control" id="addAssigmmentDescription" placeholder="Description"></textarea>
+							</div>
+               				<div class="form-group">
+								<label>Date</label>
+								<input type="date" class="form-control" id="addAssigmmentDate">
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="submit" class="btn btn-primary">Add</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="assigmmentEdit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Assigmment: </h4>
+					</div>
+					<form id="editAssigmment">
+						<div class="modal-body">
+							<div class="form-group">
+								<label>Name</label>
+								<input type="text" class="form-control" id="editAssigmmentName" placeholder="Name">
+							</div>
+							<div class="form-group">
+								<label>Description</label>
+								<textarea class="form-control" id="editAssigmmentDescription" placeholder="Description"></textarea>
+							</div>
+               				<div class="form-group">
+								<label>Date</label>
+								<input type="date" class="form-control" id="editAssigmmentDate">
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-danger deleteAssigmment">Delete</button>
+							<button type="submit" class="btn btn-primary">Save changes</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+        
+		<div class="modal fade" id="toDoAdd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Add To-Do</h4>
+					</div>
+					<form id="addToDo">
+                        <div class="modal-body">
+							<div class="form-group">
+								<label>Name</label>
+								<input type="text" class="form-control" id="addToDoName" placeholder="Name">
+							</div>
+							<div class="form-group">
+								<label>Description</label>
+								<textarea class="form-control" id="addToDoDescription" placeholder="Description"></textarea>
+							</div>
+               				<div class="form-group">
+								<label>Date</label>
+								<input type="date" class="form-control" id="addToDoDate">
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="submit" class="btn btn-primary">Add</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="toDoEdit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">To-Do: </h4>
+					</div>
+					<form id="editToDo">
+						<div class="modal-body">
+							<div class="form-group">
+								<label>Name</label>
+								<input type="text" class="form-control" id="editToDoName" placeholder="Name">
+							</div>
+							<div class="form-group">
+								<label>Description</label>
+								<textarea class="form-control" id="editToDoDescription" placeholder="Description"></textarea>
+							</div>
+               				<div class="form-group">
+								<label>Date</label>
+								<input type="date" class="form-control" id="editToDoDate">
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-danger deleteToDo">Delete</button>
+							<button type="submit" class="btn btn-primary">Save changes</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		
+		<script src="js/iStudent.js"></script>
+		<script src="js/script.js"></script>
+		
+    </body>
+</html>
