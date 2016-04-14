@@ -9,6 +9,8 @@ This project is called "iStudent" - a student management center.<br>
 * Dor Harel 
 * Barak Turgeman
 
+##Please visit our [live application!](https://github.com/alonshmilo/istudent)
+
 ##Github repository link
 [Here](https://github.com/alonshmilo/istudent)
 
