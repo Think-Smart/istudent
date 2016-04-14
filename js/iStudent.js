@@ -4,7 +4,7 @@ Dor Harel 300300563
 Barak Turgeman 305631293
 */
 
-function toDo(name,description,date,done) {
+function toDo(name,description,date,done) { //Todo object
     this.name = name;
     this.description = description;
     this.date = date;
@@ -30,7 +30,7 @@ function toDo(name,description,date,done) {
         }
 
 }
-function exam(name,description,date,hour) {
+function exam(name,description,date,hour) { //exam object
     this.name = name;
     this.description = description;
     this.date = date;
@@ -52,7 +52,7 @@ function exam(name,description,date,hour) {
         }
 
 }
-function assigmment(name,description,date,done) {
+function assigmment(name,description,date,done) { //assignment object
     this.name = name;
     this.description = description;
     this.date = date;
@@ -78,7 +78,7 @@ function assigmment(name,description,date,done) {
         }
 
 }
-function course(name, day, hour, instructor) {
+function course(name, day, hour, instructor) { //course object
     this.assigmments = [];
     this.exams = [];
 	this.name = name;
@@ -106,8 +106,8 @@ function course(name, day, hour, instructor) {
 
 //iStudent Object
 function iStudent(){
-    this.courses = [];
-	this.toDoList = [];
+    this.courses = []; //list of all courses
+	this.toDoList = []; //list of all to-do's
     if (localStorage.getItem("iStudent_courses") !== null) {
 		var tempCourses = JSON.parse(localStorage.getItem("iStudent_courses"));
 		for (var i=0; i< tempCourses.length; i++) {
