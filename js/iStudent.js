@@ -2,6 +2,7 @@
 Alon Shmilovich 034616359
 Dor Harel 300300563
 Barak Turgeman 305631293
+This file contains all the objects we need to do what we want in this app. It also contains the functions we are using. The objects are: course, todo, assignment, exam, and the big one: iStudent. It covers all the rest
 */
 
 function toDo(name,description,date,done) { //Todo object
