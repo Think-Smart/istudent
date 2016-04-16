@@ -2,6 +2,7 @@
 Alon Shmilovich 034616359
 Dor Harel 300300563
 Barak Turgeman 305631293
+Contains all the jquery functions we need for the app. Plus, it contains the "ready" functions
 */
 
 //This file is a jquesry functions file, and the "main" function - ready.
