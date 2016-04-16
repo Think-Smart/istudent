@@ -1,8 +1,10 @@
 #iStudent
 
+##About the project
 This is a project for Web-Developers course by Shay Tavor.<br>
 Took place in JCE Jerusalem College of Engineering, On 2015 semester a, during studies in Software Engineer department, in the 3rd year.
 This project is called "iStudent" - a student management center.<br>
+The work on this app has started in February 2016, during exams seasons of semester A, we were the first team to invent the form of iStudent in class!! 
 
 ##Authors:
 * Alon Shmilovich
@@ -21,6 +23,7 @@ In this project you will find the files:
 * style.css - This is the css file. Here all the style and the design codes are written. From here, every div and section has it's class where they take their own design.
 * iStudent.js - This file contains all the objects we need to do what we want in this app. It also contains the functions we are using. The objects are: course, todo, assignment, exam, and the big one: iStudent. It covers all the rest.
 * script.js - Contains all the jquery functions we need for the app. Plus, it contains the "ready" functions.
+* And of course - README files.
 
 ##Screens
 * Schedule - Presents weekly schedule by hours. You can add courses by pressing "add course", and give it a name, Instructor, day and time in the week. After you added a course, you can edit it by pressing it again and change whatever you like.
